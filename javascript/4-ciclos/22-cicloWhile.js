@@ -5,5 +5,5 @@ while (contador < 3){
     contador++;
     
 }
-console.log("Fin ciclo while");
+console.log("Fin ciclo while.");
 

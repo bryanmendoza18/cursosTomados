@@ -17,6 +17,6 @@ z  = a % b;
 console.log("El modulo/ residuo es: " + z);
 
 z = a ** b;
-console.log("El resultado del operador exponente es: " + z)
+console.log("El resultado del operador exponente es de: " + z)
 
 

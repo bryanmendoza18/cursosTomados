@@ -7,5 +7,5 @@ function miFuncion(a, b){
 //Llamando a la función
 miFuncion(2, 3);
 miFuncion(5, 5);
-miFuncion(1, 9); 
+miFuncion(1, 8); 
 

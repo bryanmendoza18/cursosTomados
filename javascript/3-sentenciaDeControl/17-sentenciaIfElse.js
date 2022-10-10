@@ -13,7 +13,7 @@ else{
 let numero = 3;
 
 if (numero == 1){
-    console.log("Número uno");
+    console.log("Número uno.");
 }
 else if( numero == 2){
     console.log("Número dos");
