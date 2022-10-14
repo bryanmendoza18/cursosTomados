@@ -1,5 +1,5 @@
 let persona = {
-    nombre: 'Bryan',
+    nombre: 'Bryannd',
     apellido: 'Mendoza',
     email: 'bryanmen1811@gmail.com',
     edad: 22,
