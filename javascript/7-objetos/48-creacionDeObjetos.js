@@ -10,7 +10,7 @@ persona.direccion = '6 marzo y febres cordero';
 persona.telefono = '0987168312';
 
 console.log(persona.telefono);
-console.log(persona.telefono);
+console.log(persona.direccion);
 
 
 
