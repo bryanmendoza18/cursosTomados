@@ -58,17 +58,19 @@ class Empleado extends Persona{
     
 }
 
+
 let persona1 = new Persona('Bryan', 'Mendoza');
 
 let empleado1 = new Empleado('Juan', 'Ortíz', 'Sistemas')
 
 
-console.log(persona1.contadorObjetosPersona); // undefined porque solo se puede acceder de la clase.
+
+
+console.log(persona1.contadorObjetosPersona); // undefined porque solo se puede acceder de la clase
 console.log(Persona.contadorObjetosPersona); //2
 console.log(Empleado.contadorObjetosPersona); //2
 
 
-//sale 2 porque son dos clase que se ha creado la clase padre y la hija
 
 
 
