@@ -10,6 +10,6 @@ const john = new Person('john', 'ray');
 const maria = new Person('maria', 'perez');
 
 //relación
-maria.parent = john // maria tiene como padre a john
+maria.parent = john // maria tiene como padre a John
 
 console.log(maria);
