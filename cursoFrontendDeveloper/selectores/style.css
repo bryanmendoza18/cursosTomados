@@ -1,0 +1,28 @@
+div p:nth-child(2){
+    color: orange;
+}
+
+p::first-letter{
+    color:  greenyellow;
+}
+
+p::after{
+    content: "😂";
+}
+
+::placeholder{
+    color: tomato;
+} 
+
+div p:hover::after{
+    content: "😁";
+} */
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+
