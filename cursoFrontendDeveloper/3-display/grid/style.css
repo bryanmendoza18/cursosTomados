@@ -1,0 +1,56 @@
+
+h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr) ;
+    border: 8px solid black;
+    margin: 100px auto 150px;
+    
+}
+
+
+
+.container .item:nth-child(2n + 1){
+    background-color: black;
+}
+
+.container .item1:nth-child(2n){
+    background-color: black;
+}
+
+.container .item2:nth-child(2n + 1){
+    background-color: black;
+}
+
+.container .item3:nth-child(2n){
+    background-color: black;
+}
+
+.container .item4:nth-child(2n + 1){
+    background-color: black;
+}
+
+.container .item5:nth-child(2n){
+    background-color: black;
+}
+
+.container .item6:nth-child(2n + 1){
+    background-color: black;
+}
+
+.container .item7:nth-child(2n){
+    background-color: black;
+}
+
+
+    
+
+
+
+
