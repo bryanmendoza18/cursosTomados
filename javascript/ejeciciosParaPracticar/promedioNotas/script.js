@@ -18,16 +18,33 @@ nota3.placeholder = 'Ingrese nota 3'
 
 
 function btnOnclick(){
-    
+    let valorMinimo = 0;
+    let valorMaximo = 10;
     let  promedio = ((parseInt(nota1.value) + parseInt(nota2.value) + parseInt(nota3.value)) / 3).toFixed(1)
 
-    if(promedio >= 7){
-        resultado.innerHTML = `Felcidades ${nombre.value} aprobaste 🎊 tu promedio fue de: ${promedio}`
-    }
-    else{
-        resultado.innerHTML = `Lo sentimos ${nombre.value}, reprobaste 😢 tu promedio fue de: ${promedio}`
+    if( (nota1.value >= valorMinimo  && nota2.value >= valorMinimo && nota3.value >= valorMinimo)  &&  (nota1.value <= valorMaximo && nota2.value <= valorMaximo  && nota3.value <= valorMaximo)   ){
+
+        if(promedio >= 7){
+            resultado.innerHTML = `Felcidades ${nombre.value} aprobaste 🎊 tu promedio fue de: ${promedio}`
+        }
+        else{
+            resultado.innerHTML = `Lo sentimos ${nombre.value}, reprobaste 😢 tu promedio fue de: ${promedio}`
+    
+        }
 
     }
+    else{
+        resultado.innerHTML = 'Ingrese correctamente los valores'
+    }
+
+
+    
+        
+
+    
+
+
+    
 }
 
 

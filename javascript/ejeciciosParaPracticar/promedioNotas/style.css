@@ -7,7 +7,6 @@ h2{
 
 
 #contenedor{
-    background-color: rgb(255, 240, 240);
     width: 35%;
     margin: 0 auto;
     text-align: center;
@@ -16,6 +15,7 @@ h2{
 label, input{
     font-size: 30px;
     margin: 10px;
+    text-align: center;
     
 }
 
