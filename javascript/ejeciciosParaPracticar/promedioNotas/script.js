@@ -7,8 +7,6 @@ const btnCalcular = document.querySelector('#btnCalcular')
 const resultado = document.querySelector('#resultado')
 
 
-
-
 titulo.innerHTML = 'Sistema de calificaciones';
 nombre.placeholder = 'Ingresa tu nombre'
 nota1.placeholder = 'Ingrese nota 1'
@@ -22,6 +20,10 @@ function btnOnclick(){
     let valorMaximo = 10;
     let  promedio = ((parseInt(nota1.value) + parseInt(nota2.value) + parseInt(nota3.value)) / 3).toFixed(1)
 
+   if(isNaN(promedio)){
+    resultado.innerHTML = 'Ingresa sólo números'
+   }
+   else{
     if( (nota1.value >= valorMinimo  && nota2.value >= valorMinimo && nota3.value >= valorMinimo)  &&  (nota1.value <= valorMaximo && nota2.value <= valorMaximo  && nota3.value <= valorMaximo)   ){
 
         if(promedio >= 7){
@@ -34,16 +36,10 @@ function btnOnclick(){
 
     }
     else{
-        resultado.innerHTML = 'Ingrese correctamente los valores'
+        resultado.innerHTML = 'Ingrese valores dentro del rango 1-10'
     }
 
-
-    
-        
-
-    
-
-
+   }
     
 }
 
