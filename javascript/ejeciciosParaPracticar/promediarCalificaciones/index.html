@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="contenedor2">
+        <!--header-->
+        <div class="header">
+            <h1 id="titulo" onmouseover="cambiarColorTitulo(this)" onmouseout="dejarCambiar(this)">Sistema calificaciones </h1>
+        </div>
+
+        <!--menu-->
+        <div class="menu">
+            <button id="btn" onclick="btnEnunciado(this)" onmouseover="lime(this)" onmouseout="blanco(this)">Ver enunciado</button>
+            <p id="parrafo"></p>
+        </div>
+
+        <!--main-->
+        <div class="main">
+
+            <div id="contenedor">
+                <label >Operando 1:</label>
+                <input type="text" id="operandoUno" onmouseover="amarillo(this)" onmouseout="blanco(this)">
+                <br> <br>
+                <label >Operando 2:</label>
+                <input type="text" id="operandoDos" onmouseover="amarillo(this)" onmouseout="blanco(this)">
+                <br> <br>
+                <label >Operando 3:</label>
+                <input type="text" id="operandoTres" onmouseover="amarillo(this)" onmouseout="blanco(this)">
+                <br>
+                
+                <!--botón calcular-->
+                <button class="calcular" onclick="btnCalcular()" onmouseover="lime(this)" onmouseout="blanco(this)">Calcular</button>
+                <p id="resultados" >
+                    
+                </p>
+            
+            </div> 
+
+        </div>
+
+        <!--footer-->
+        <div class="footer">
+            <p class="derechos">copyright. &copy; 2022. Bryan Mendoza</p>
+        </div>
+
+    </div>
+
+
+    
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
