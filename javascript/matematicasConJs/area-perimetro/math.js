@@ -1,7 +1,7 @@
 //calcular el perímetro del cuadrado
 
-document.getElementById('cuadrado').style.width = '200px';
-document.getElementById('cuadrado').style.height = '200px';
+document.getElementById('cuadrado').style.width = '150px';
+document.getElementById('cuadrado').style.height = '150px';
 document.getElementById('cuadrado').style.backgroundColor = 'orange';
 
 document.getElementById('medidas').style.width = '50px'
@@ -21,16 +21,16 @@ function btnCalcularCuadrado(){
     
 }
 
+//TRIANGULO
+function btnCalcularTriangulo(){
+    let lado1 = document.getElementById('lado1').value;
+    let lado2 = document.getElementById('lado2').value;
+    let ladoBase = document.getElementById('ladoBase').value;
+    let altura = document.getElementById('altura').value;
+    let perimetroTriangulo = parseInt(lado1) + parseInt(lado2) + parseInt(ladoBase)
+    let areaTriangulo =  (ladoBase * altura) / 2;
 
-
-// let lado1 = 6;
-// let lado2 = 6;
-// let base = 4;
-// let altura = 5.5;
-
-// let perimetro = lado1 + lado2 + base;
-// let area = (base * altura) / 2;
-
-// console.log(`El perimetro del triángulo es: ${perimetro}, y su altura de: ${altura}`)
-
+    document.getElementById('perimetroTriangulo').innerText = `El perímetro es: ${perimetroTriangulo}`;
+    document.getElementById('areaTriangulo').innerText = `El área es: ${areaTriangulo} cm`
+}
 
