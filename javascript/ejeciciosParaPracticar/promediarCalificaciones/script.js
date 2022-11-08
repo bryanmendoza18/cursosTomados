@@ -4,7 +4,7 @@ document.getElementById('titulo').style.textAlign = 'center'
 
 
 function cambiarColorTitulo(cambiar){
-    cambiar.style.color = 'red'
+    cambiar.style.color = 'orange'
 }
 
 function dejarCambiar(cambiar){
