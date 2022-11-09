@@ -21,4 +21,4 @@ const persona2 = new Persona('Juan', 'Lara');
 empresa.empleados.push(persona1)
 empresa.empleados.push(persona2)
 
-console.log(empresa)
+console.log(empresa);

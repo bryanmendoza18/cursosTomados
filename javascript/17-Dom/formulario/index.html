@@ -7,8 +7,18 @@
     <title>Ejemplo de formulario con DOM</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<style>
+    #imagen{
+        width: 100px;
+        height: 100px;
+    }
+</style>
+
+
 <body>
-    
+    <h1 id="titulo">Manejo DOM</h1>
+
     <form  id="formulario" action="">
         Nombre: <input type="text" name="nombre" value="Bryan"> 
         <br>
@@ -19,6 +29,19 @@
 
     <!-- par mostrar un texto--> 
     <div id="valores"></div>
+
+    <h1>Imagen</h1>
+
+    <button onclick="cambiarImagen()">cambiar imagen</button>
+    <br> <br>
+    <img id="imagen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU" alt="">
+
+    
+    
+    <!-- cambiar color título--> 
+    <h1 id="titulo1">Uso de DOM</h1>
+    <br>
+    <button onclick="cambiarEstilo()">cambiar estilo</button>
 
 
     <script src="./script.js"></script>

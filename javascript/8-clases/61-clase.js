@@ -2,8 +2,8 @@
 class Persona{
     //agregando constructor
     constructor(nombre, apellido){
-        this.nombre = nombre;
-        this.apellido = apellido; 
+        this._nombre = nombre;
+        this._apellido = apellido; 
 
     }
 

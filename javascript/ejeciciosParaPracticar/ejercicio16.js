@@ -1,8 +1,8 @@
 /*
 Escriba un programa que pueda calcular el área 3 figuras geométricas, triángulo, rectángulo y círculo. 
+Seleccionar la figura tomando en cuenta 1 = triángulo, 2 = rectángulo, 3 = círculo
 */
 
-// 1 triangulo, 2 rectangulo, 3 circulo
 let figura = 3;
 let altura = 8;
 let base = 5;
