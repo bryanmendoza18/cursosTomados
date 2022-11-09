@@ -1,0 +1,35 @@
+div{
+    position: absolute;
+    background-color: lime;
+}
+
+.one{
+    z-index: 5;
+}
+
+.two{
+    z-index: 4;
+}
+
+
+.red{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    z-index: 5;
+}
+
+.blue{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    z-index: 4;
+    
+}
+
+.yellow{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    z-index: 6;
+}
